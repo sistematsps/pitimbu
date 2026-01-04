@@ -20,13 +20,13 @@ th { background: white; }
 .vendor-meta { font-size:16px; color:#666; margin-left:8px; }
 .vendor-del { background:black; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
 .vendor-del:hover { background:#990000; }
-#painelVendedor { margin-top:20px; background:yellow; padding:15px; border:1px solid #b30000; border-radius:6px; display:none; }
+#painelVendedor { margin-top:20px; background:#fff; padding:15px; border:1px solid #b30000; border-radius:6px; display:none; }
 .totais span { margin-right:20px; font-weight:bold; }
 </style>
 </head>
 <body>
 
-<h1>PITIMBU DA SORTE</h1>
+<h1>GRUPO DA SORTE</h1>
 
 <div>
   <input id="nome" placeholder="Nome do vendedor"/>
@@ -79,14 +79,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/fireba
 import { getFirestore, collection, setDoc, doc, getDocs, deleteDoc } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD8IxOX_0e6T7DUzGf1DlPOHLNCq5zCK2M",
-  authDomain: "pitimbu-da-sorte-80aa6.firebaseapp.com",
-  projectId: "pitimbu-da-sorte-80aa6",
-  storageBucket: "pitimbu-da-sorte-80aa6.firebasestorage.app",
-  messagingSenderId: "365898285373",
-  appId: "1:365898285373:web:2ce4e344f1e9774c068554"
-};
+  apiKey: "AIzaSyBrHB8Defu0DrkV8POU4lAuAxCal6fqHM4",
+  authDomain: "pitimbu-a09e3.firebaseapp.com",
+  projectId: "pitimbu-a09e3",
+  storageBucket: "pitimbu-a09e3.firebasestorage.app",
+  messagingSenderId: "956873424564",
+  appId: "1:956873424564:web:583c8405d288883d71e1e1"
 
+};
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -220,8 +220,3 @@ loadAll();
 </script>
 </body>
 </html>
-
-
-
-
-
